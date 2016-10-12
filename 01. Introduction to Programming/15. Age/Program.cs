@@ -4,9 +4,9 @@ class Program
     static void Main()
     {
         DateTime birthDay = Convert.ToDateTime(Console.ReadLine());
-        TimeSpan days = (DateTime.Now - birthDay);
-        Console.WriteLine(days);
-        int years = days.Days / 365;
+        DateTime dateNow = DateTime.Now;
+        TimeSpan diff = (dateNow - birthDay);
+        int years = (dateNow - diff).Year;
         Console.WriteLine(years);
         Console.WriteLine(years + 10);
     }
