@@ -1,12 +1,13 @@
 ﻿using System;
+
+
 class Program
 {
     static void Main()
     {
-        DateTime birthDay = Convert.ToDateTime(Console.ReadLine());
-        DateTime dateNow = DateTime.Now;
-        TimeSpan diff = (dateNow - birthDay);
-        int years = (dateNow - diff).Year;
+
+        DateTime BirthDay = DateTime.Parse(Console.ReadLine());
+        int years = (int)((DateTime.Now.AddMonths(-7) - BirthDay).TotalDays / 365.242199);
         Console.WriteLine(years);
         Console.WriteLine(years + 10);
     }
