@@ -13,8 +13,8 @@ class Program
         }
         else
         {
-            int mask = 1 << p;
-            Console.WriteLine(n | (ulong)(mask));
+            ulong mask = (ulong)1 << p;
+            Console.WriteLine(n | mask);
         }
     }
 }
