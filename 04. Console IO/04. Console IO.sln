@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum of 3 numbers", "01. Sum of 3 numbers\01. Sum of 3 numbers.csproj", "{DDEE774C-8377-4DB6-9CB9-6CB352DF9219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Company info", "02. Company info\02. Company info.csproj", "{AD0AF3AD-7B57-4A02-87F2-6E1319B73D72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Circle", "03. Circle\03. Circle.csproj", "{32E0BDCE-6985-41BF-9C79-67DE5EBACDDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDEE774C-8377-4DB6-9CB9-6CB352DF9219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEE774C-8377-4DB6-9CB9-6CB352DF9219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEE774C-8377-4DB6-9CB9-6CB352DF9219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEE774C-8377-4DB6-9CB9-6CB352DF9219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0AF3AD-7B57-4A02-87F2-6E1319B73D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0AF3AD-7B57-4A02-87F2-6E1319B73D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0AF3AD-7B57-4A02-87F2-6E1319B73D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0AF3AD-7B57-4A02-87F2-6E1319B73D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E0BDCE-6985-41BF-9C79-67DE5EBACDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E0BDCE-6985-41BF-9C79-67DE5EBACDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E0BDCE-6985-41BF-9C79-67DE5EBACDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E0BDCE-6985-41BF-9C79-67DE5EBACDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
