@@ -8,36 +8,38 @@ class Program
         char[] firstCharArray = firstSequence.ToCharArray();
         char[] secondCharArray = secondSequence.ToCharArray();
         char lex = new char();
-        if (firstCharArray.Length > secondCharArray.Length)
+
+        for (int i = 0; i < Math.Min(firstCharArray.Length, secondCharArray.Length); i++)
         {
-            lex = '>';
-        }
-        else if (firstCharArray.Length == secondCharArray.Length)
-        {
-            for (int i = 0; i < firstCharArray.Length; i++)
+
+            if (firstCharArray[i] == secondCharArray[i])
             {
-
-                if (firstCharArray[i] > secondCharArray[i])
-                {
-                    lex = '>';
-                    break;
-                }
-                else if (firstCharArray[i] < secondCharArray[i])
-                {
-                    lex = '<';
-                    break;
-                }
-                else
-                {
-                    lex = '=';
-                }
+                lex = '=';
+                continue;
             }
-
+            else if (firstCharArray[i] < secondCharArray[i])
+            {
+                lex = '<';
+                break;
+            }
+            else
+            {
+                lex = '>';
+                break;
+            }
         }
-        else
+        if ((firstCharArray.Length != secondCharArray.Length) && (lex == '='))
         {
-            lex = '<';
+            if (firstCharArray.Length > secondCharArray.Length)
+            {
+                lex = '>';
+            }
+            else
+            {
+                lex = '<';
+            }
         }
         Console.WriteLine(lex);
     }
-}
+    
+ }
