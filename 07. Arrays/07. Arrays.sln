@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Find sum in array", "10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Binary search", "11. Binary search\11. Binary search.csproj", "{23F7FED2-0216-4070-BCD8-DDE66FB973E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Index of letters", "12. Index of letters\12. Index of letters.csproj", "{F1EC5709-FD63-4052-8EB4-CC04328BE95B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Merge sort", "13. Merge sort\13. Merge sort.csproj", "{509F22C4-0078-4D4A-8874-F1E14EF740DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{23F7FED2-0216-4070-BCD8-DDE66FB973E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23F7FED2-0216-4070-BCD8-DDE66FB973E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23F7FED2-0216-4070-BCD8-DDE66FB973E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1EC5709-FD63-4052-8EB4-CC04328BE95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EC5709-FD63-4052-8EB4-CC04328BE95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EC5709-FD63-4052-8EB4-CC04328BE95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EC5709-FD63-4052-8EB4-CC04328BE95B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509F22C4-0078-4D4A-8874-F1E14EF740DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509F22C4-0078-4D4A-8874-F1E14EF740DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509F22C4-0078-4D4A-8874-F1E14EF740DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509F22C4-0078-4D4A-8874-F1E14EF740DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
