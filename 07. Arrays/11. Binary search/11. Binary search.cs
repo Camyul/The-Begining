@@ -14,7 +14,7 @@ class Program
         int mid = 0;
         int last = nums.Length - 1;
         bool found = false;
-        while (!found && first <= last )
+        while (!found && first <= last)
         {
             mid = first + (last - first) / 2;
             if (target == nums[mid])
@@ -29,7 +29,7 @@ class Program
                 {
                     first = mid + 1;
                 }
-               else
+                else
                 {
                     last = mid - 1;
                 }
