@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{85202BC9-68AA-4A47-811A-31A361A321EC}</ProjectGuid>
+    <ProjectGuid>{94E4A374-1F24-41BD-96B8-B9C2DB523748}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_18.Remove_elements_from_array</RootNamespace>
-    <AssemblyName>_18.Remove_elements_from_array</AssemblyName>
+    <RootNamespace>_17.Subset_K_with_sum_S</RootNamespace>
+    <AssemblyName>_17.Subset_K_with_sum_S</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="18. Remove elements from array.cs" />
+    <Compile Include="17. Subset K with sum S.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
