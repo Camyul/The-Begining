@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Subset with sum S", "16
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Subset K with sum S", "17. Subset K with sum S\17. Subset K with sum S.csproj", "{94E4A374-1F24-41BD-96B8-B9C2DB523748}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Permutations of set", "19. Permutations of set\19. Permutations of set.csproj", "{3CD6BE29-F2BD-4217-991B-4E1CADA2D8AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Variations of set", "20. Variations of set\20. Variations of set.csproj", "{EA01F51C-8327-4AEF-8AEC-0DDFC9F6EB39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{94E4A374-1F24-41BD-96B8-B9C2DB523748}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94E4A374-1F24-41BD-96B8-B9C2DB523748}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94E4A374-1F24-41BD-96B8-B9C2DB523748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD6BE29-F2BD-4217-991B-4E1CADA2D8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD6BE29-F2BD-4217-991B-4E1CADA2D8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD6BE29-F2BD-4217-991B-4E1CADA2D8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD6BE29-F2BD-4217-991B-4E1CADA2D8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA01F51C-8327-4AEF-8AEC-0DDFC9F6EB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA01F51C-8327-4AEF-8AEC-0DDFC9F6EB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA01F51C-8327-4AEF-8AEC-0DDFC9F6EB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA01F51C-8327-4AEF-8AEC-0DDFC9F6EB39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
