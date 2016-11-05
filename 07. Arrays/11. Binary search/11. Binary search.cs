@@ -35,6 +35,17 @@ class Program
                 }
             }
         }
-        Console.WriteLine(nums[first] >= target ? first : last);
+        if (nums[first] == target)
+        {
+            Console.WriteLine(first);
+        }
+        else if (nums[last] == target)
+        {
+            Console.WriteLine(last);
+        }
+        else
+        {
+            Console.WriteLine("-1");
+        }
     }
 }
