@@ -49,7 +49,10 @@ class Program
 
         QuickSort(numbers, 0, numbers.Length - 1);
 
-        Console.WriteLine(string.Join(" ", numbers));
+        foreach (var nums in numbers)
+        {
+            Console.WriteLine(nums);
+        }
     }
 
 
