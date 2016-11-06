@@ -26,7 +26,7 @@ class Program
                     row == 0 && col >midCol/2 && col < (midCol + 1 +(midCol / 2))||
                     row < fielfSizeRow && col == midCol ||
                     col + row == midCol/2 +1 ||
-                    col + row == fielfSizeRow + midCol/2 
+                    col == row + midCol + (midCol/2)
                     )
                 {
                     Console.Write(star);
