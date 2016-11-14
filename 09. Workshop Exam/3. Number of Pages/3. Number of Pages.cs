@@ -5,41 +5,48 @@ class Program
     {
         int digit = int.Parse(Console.ReadLine());
         int pages = 0;
-        for (int i = 1; i <= digit; i++)
+        for (int i = 0; i < digit; i++)
         {
-            
-            if (i < 100 && i >= 10 )
+
+
+            if (pages < 100 && pages >= 10 )
             {
-                digit +=2;
+               i++;
                 pages++;
             }
-            else if (i < 1000 && i >= 100)
+            else if (pages < 1000 && pages >= 100)
             {
                 pages++;
-                digit += 3;
+                i += 2;
             }
-            else if (i < 10000 && i >= 1000)
+            else if (pages < 10000 && pages >= 1000)
             {
-                digit += 4;
+                i += 3;
                 pages++;
             }
-            else if (i < 100000 && i >= 10000)
+            else if (pages < 100000 && pages >= 10000)
             {
                 pages++;
-                digit += 5;
+                i += 4;
             }
-            else if (i < 1000000 && i >= 100000)
+            else if (pages < 1000000 && pages >= 100000)
             {
-                digit += 6;
+                i += 5;
                 pages++;
 
             }
             else 
             {
-                digit++;
                 pages++;
             }
         }
-        Console.WriteLine(pages);
+        if (pages > 10)
+        {
+            Console.WriteLine(pages - 1);
+        }
+        else
+        {
+            Console.WriteLine(pages);
+        }
     }
 }
